@@ -1,0 +1,19 @@
+.add-venue-main {
+  margin-left: 200px;
+  /* background-image: url('../../images/mk.jpg'); */
+  /* filter: opacity(0.1); */
+  background-size: 110%;
+  /* overflow: auto; */
+}
+
+.add-venue-title {
+  text-align: center;
+  color: red;
+}
+
+.checkContainer {
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}

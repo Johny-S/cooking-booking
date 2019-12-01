@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <title>Complex Marker Icons</title>
+  <style>
+    /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+    #map {
+      margin: 20px;
+      height: 400px;
+      width: 80%;
+      border-radius: 10px;
+    }
+
+    /* Optional: Makes the sample page fill the window. */
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+  <script>
+
+    // The following example creates complex markers to indicate beaches near
+    // Sydney, NSW, Australia. Note that the anchor is set to (0,32) to correspond
+    // to the base of the flagpole.
+
+    function initMap() {
+      const options = {
+        zoom: 10,
+        center: { lat: 55.666810, lng: 37.750974 }
+      };
+
+      const map = new google.maps.Map(document.getElementById('map'), options);
+
+      // setMarkers(map);
+    }
+
+    function setMarkers(map) {
+      const positions = [{ lat: 55.740977, lng: 37.527911 }]
+
+      const marker = new google.maps.Marker({
+        position,
+        map,
+        title: 'Deli'
+      })
+
+
+      // const studies = [
+      //   ['Deli', 55.741126, 37.527752,]
+      // ];
+
+    }
+
+  </script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVqXSmsIDhO-EClFmjLr1Jj9JqlNABzOE&callback=initMap">
+    </script>
+</body>
+
+</html>

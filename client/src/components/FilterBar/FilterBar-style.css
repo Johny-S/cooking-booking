@@ -1,0 +1,32 @@
+.filterBar {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.checkContainer {
+  margin-bottom: 0px !important;
+}
+
+.button {
+  margin-top: 24px;
+  margin-left: 10px;
+  /* border-radius: 10px; */
+  height: 35px;
+  /* background-color: #e57373; */
+}
+
+.date {
+  /* margin-top: 10px; */
+  margin-left: 10px;
+  width:150px;
+  height: 35px;
+  border-radius: 10px;
+  background: white;
+}
+.myDate {
+  margin-top: 15px;
+}
+.input-field {
+  margin-left: 10px;
+}
